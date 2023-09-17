@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,6 +9,7 @@
   <link rel="shortcut icon" href="./images/bowls-and-cups.png" type="image/x-icon">
   <title>cssMemeSlider</title>
 </head>
+
 <body>
 
   <header class="wrapper">
@@ -21,54 +23,64 @@
       </div>
     </div>
   </header>
-  
-  <main class="wrapper">
+
+  <main class="wrapper main__wrapper">
     <div class="slider">
+
+      <input class="input" type="radio" name="slide" id="slide1" checked>
+      <input class="input" type="radio" name="slide" id="slide2">
+      <input class="input" type="radio" name="slide" id="slide3">
+      <input class="input" type="radio" name="slide" id="slide4">
+      <input class="input" type="radio" name="slide" id="slide5">
+
       <div class="slides">
-        
-        <input type="radio" name="slide" id="slide-1" checked>
-        <input type="radio" name="slide" id="slide-2">
-        <input type="radio" name="slide" id="slide-3">
-        <input type="radio" name="slide" id="slide-4">
-        <input type="radio" name="slide" id="slide-5">
-
         <div class="slide">
-          <img src="./images/1.jpg" width="400" alt="">
+          <img src="./images/1.jpg" width="600" alt="">
         </div>
         <div class="slide">
-          <img src="./images/2.jpg" width="400" alt="">
+          <img src="./images/2.jpg" width="600" alt="">
         </div>
         <div class="slide">
-          <img src="./images/3.jpg" width="400" alt="">
+          <img src="./images/3.jpg" width="600" alt="">
         </div>
         <div class="slide">
-          <img src="./images/4.jpg" width="400" alt="">
+          <img src="./images/4.jpg" width="600" alt="">
         </div>
         <div class="slide">
-          <img src="./images/5.jpg" width="400" alt="">
-        </div>
-
-        <div class="navigation__section">
-
-          <div class="description">
-            <p class="image__description"></p>
-            <p class="image__description"></p>
-            <p class="image__description"></p>
-            <p class="image__description"></p>
-            <p class="image__description"></p>
-          </div>
-
-          <div class="navigation">
-            <label for="slide-1" class="navigation__element"></label>
-            <label for="slide-2" class="navigation__element"></label>
-            <label for="slide-3" class="navigation__element"></label>
-            <label for="slide-4" class="navigation__element"></label>
-            <label for="slide-5" class="navigation__element"></label>
-          </div>
-
+          <img src="./images/5.jpg" width="600" alt="">
         </div>
 
       </div>
+    </div>
+
+    <div class="navigation__section">
+
+      <div class="description">
+        <p class="image__description">Опять на улице идет дождь</p>
+        <p class="image__description">Когда в кустах не нашел вкусняшку</p>
+        <p class="image__description">Я тоже хочу на море</p>
+        <p class="image__description">Неудачная прогулочка</p>
+        <p class="image__description">После трудовой недели можно и по пиву</p>
+      </div>
+
+      <div class="navigation">
+        <label for="slide1" class="navigation__element">
+          <span></span>
+        </label>
+        <label for="slide2" class="navigation__element">
+          <span></span>
+        </label>
+        <label for="slide3" class="navigation__element">
+          <span></span>
+        </label>
+        <label for="slide4" class="navigation__element">
+          <span></span>
+        </label>
+        <label for="slide5" class="navigation__element">
+          <span></span>
+        </label>
+      </div>
+
     </div>
   </main>
 
@@ -79,6 +91,7 @@
       <a href="https://github.com/plcnsk" target="_blank">Aliaksei Pliutsinski</a>
     </div>
   </footer>
-  
+
 </body>
+
 </html>
