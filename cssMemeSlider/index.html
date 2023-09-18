@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./normalize.css">
+  <link rel="stylesheet" href="./style.css">
+  <link rel="shortcut icon" href="./images/bowls-and-cups.png" type="image/x-icon">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+  <title>cssMemeSlider</title>
+</head>
+
+<body>
+
+  <header class="wrapper">
+    <div class="header__container">
+      <h1>CSS meme slider</h1>
+      <div class="header__title">
+        <p>The main actor is Vincent:</p>
+        <a href="https://www.instagram.com/vincent_vinc_" target="_blank">
+          <img class="instagram__icon" src="./images/u_instagram.svg" alt="#" width="32">
+        </a>
+      </div>
+    </div>
+  </header>
+
+  <main class="wrapper main__wrapper">
+    <div class="slider">
+
+      <input class="input" type="radio" name="slide" id="slide1" checked>
+      <input class="input" type="radio" name="slide" id="slide2">
+      <input class="input" type="radio" name="slide" id="slide3">
+      <input class="input" type="radio" name="slide" id="slide4">
+      <input class="input" type="radio" name="slide" id="slide5">
+
+      <div class="slides">
+        <div class="slide">
+          <img src="./images/1.jpg" alt="">
+        </div>
+        <div class="slide">
+          <img src="./images/2.jpg" alt="">
+        </div>
+        <div class="slide">
+          <img src="./images/3.jpg" alt="">
+        </div>
+        <div class="slide">
+          <img src="./images/4.jpg" alt="">
+        </div>
+        <div class="slide">
+          <img src="./images/5.jpg" alt="">
+        </div>
+
+      </div>
+
+      <div class="navigation__section">
+
+        <div class="description__wrapper">
+          <div class="description">
+            <div class="image__description">
+              <p>Опять на улице идет дождь</p>
+            </div>
+            <div class="image__description">
+              <p>Когда в кустах не нашел вкусняшку</p>
+            </div>
+            <div class="image__description">
+              <p>Я тоже хочу на море</p>
+            </div>
+            <div class="image__description">
+              <p>Неудачная прогулочка</p>
+            </div>
+            <div class="image__description">
+              <p>После трудовой недели можно и по пиву</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="navigation">
+          <label for="slide1" class="navigation__element">
+            <span class="navigation__span"></span>
+          </label>
+          <label for="slide2" class="navigation__element">
+            <span class="navigation__span"></span>
+          </label>
+          <label for="slide3" class="navigation__element">
+            <span class="navigation__span"></span>
+          </label>
+          <label for="slide4" class="navigation__element">
+            <span class="navigation__span"></span>
+          </label>
+          <label for="slide5" class="navigation__element">
+            <span class="navigation__span"></span>
+          </label>
+        </div>
+
+      </div>
+
+    </div>
+
+  </main>
+
+  <footer class="wrapper">
+    <div class="footer__container">
+      <a href="https://rs.school/js-stage0/" target="_blank">The Rolling Scopes School</a>
+      <h2>2023</h2>
+      <a href="https://github.com/plcnsk" target="_blank">Aliaksei Pliutsinski</a>
+    </div>
+  </footer>
+
+</body>
+
+</html>
